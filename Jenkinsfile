@@ -5,7 +5,7 @@ agent any
   environment {
     MSBUILD = "C:\\Program Files (x86)\\MSBuild\\14.0\\Bin\\MSBuild.exe"
     CONFIG = 'Release'
-    PLATFORM = 'x64'
+    PLATFORM = 'Any CPU'
 	NUGETPATH = "C:\\software\\nuget.exe"
   }
   stages {
