@@ -6,31 +6,8 @@ pipeline{
         
 stage ('Docker build stage') {
         steps { 
-              
+         bat "test"     
         }
       }
 
-        stage ('Nuget Restore') {
-        steps { 
-              
-        }
-      }
-
-        stage ('MsBuild') {
-        steps { 
-              
-        }
-      }  
-
-        stage('Test') {
-            steps {
-              
-            }
-        }
-        stage('Deploy') {
-            steps {
-                
-            }
-        }
-    }
-}
+  }
