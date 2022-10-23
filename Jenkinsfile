@@ -3,10 +3,10 @@ pipeline {
 agent any
 
   environment {
-    MSBUILD = "C:\Program Files\MSBuild\"
+    MSBUILD = "C:\\Program Files\\MSBuild\\"
     CONFIG = "Release"
     PLATFORM = '"Any CPU"'
-	NUGETPATH = "C:\Program Files\MSBuild\"
+	NUGETPATH = "C:\\Program Files\\MSBuild\\"
   }
   stages {
     stage('Build') {
