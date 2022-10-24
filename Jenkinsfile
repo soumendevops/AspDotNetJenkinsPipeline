@@ -6,7 +6,7 @@ agent any
     MSBUILD = "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe"
     CONFIG = "Release"
     PLATFORM = '"Any CPU"'
-	NUGETPATH = "C:\\Program Files\\MSBuild"
+	NUGETPATH = "C:\\Program Files\\MSBuild\\"
   }
   stages {
     stage('Build') {
